@@ -1,10 +1,9 @@
+
+/* NavBar */
 .NavBar{
-  /* position: relative;
-  background-color: blue;
-  height: 100px;
-  width: 100%; */
   overflow: hidden;
   background-color: #333;
+
 }
 .NavBar a{
   float: left;
@@ -23,19 +22,19 @@
   background-color: #04AA6D;
   color: white;
 }
-.NavBar .icon{
+.NavBar .MenuIcon{
   display: none;
 }
 @media screen and (max-width: 600px) {
   .NavBar a:not(:first-child) {display: none;}
-  .NavBar a.icon {
+  .NavBar a.MenuIcon {
     float: right;
     display: block;
   }
 }
 @media screen and (max-width: 600px) {
   .NavBar.responsive {position: relative;}
-  .NavBar.responsive .icon {
+  .NavBar.responsive .MenuIcon {
     position: absolute;
     right: 0;
     top: 0;
@@ -46,3 +45,77 @@
     text-align: left;
   }
 }
+.NavLogo1{
+  position: relative;
+  height: 21px;
+  width: 5rem;
+  text-align: left;
+}
+.NavLogo2{
+  position: absolute;
+  text-align: left;
+  left: 40px;
+  bottom: 0;
+  font-size: 7px;
+}
+.NavLogo2 p{
+  margin-block-start:0;
+  margin-block-end:0;
+}
+
+/* Footer */
+.Foot{
+  background-color: #333;
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+/* .ocean {
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+  z-index: 1;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+  z-index: 2;
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
+}
+.Social{
+  background-color: #015871;
+  z-index: 10;
+} */
