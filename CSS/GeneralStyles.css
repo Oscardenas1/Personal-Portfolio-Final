@@ -4,12 +4,9 @@ body{
 }
 
 /* Footer */
-.fbLogo{
-  fill: blue;
-}
-.igLogo{
-  fill: pink;
-}
-.twLogo{
-  fill: lightblue;
+
+.Logo{
+  
+  fill: #FAF8FF
+
 }
