@@ -1,12 +1,211 @@
-body{
+body {
   font-family: 'Montserrat', sans-serif;
-   margin: 0;
+  margin: 0;
+}
+
+/* NavBar */
+@media screen and (max-width: 600px) {
+  .NavBar a:not(:first-child) {
+    display: none;
+  }
+
+  .NavBar a.MenuIcon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .NavBar.responsive {
+    position: relative;
+  }
+
+  .NavBar.responsive .MenuIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .NavBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.NavLogo2 p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Landing */
+.BigLogo3 p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.LandingPhrase p {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .LandingPhrase p {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+}
+
+@keyframes Slide-in-left {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 33.2%;
+  }
+}
+
+@keyframes Slide-in-top {
+  from {
+    bottom: 200px;
+  }
+
+  to {
+    bottom: -87px;
+  }
+}
+
+@keyframes Slide-in-right {
+  from {
+    right: -100px;
+  }
+
+  to {
+    right: 31%;
+  }
+}
+
+/*Responsive BigLogo*/
+@media screen and (max-width: 600px) {
+  .BigLogo1 {
+    font-size: 600%;
+    bottom: -100px;
+    left: 30%;
+  }
+
+  .BigLogo2 {
+    font-size: 100px;
+  }
+
+  .BigLogo3 {
+    font-size: 260%;
+  }
+}
+
+/*My MyWork_Home*/
+.MyWork_Home_Text p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.MyWorkLink :hover {
+  color: #1BCFE2;
+  text-decoration: underline;
+}
+
+.WhaleSharkCoffee {
+  width: 100%;
+}
+
+.Octopus_Home {
+  width: 100%;
+}
+
+@-webkit-keyframes Caroussel {
+  from {
+    -webkit-transform: rotateY(0);
+  }
+
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+@-moz-keyframes Caroussel {
+  from {
+    -moz-transform: rotateY(0);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+  }
+}
+
+.p1 {
+  -webkit-transform: translateZ(200px);
+}
+
+.p2 {
+  -webkit-transform: rotateY(45deg) translateZ(200px);
+}
+
+.p3 {
+  -webkit-transform: rotateY(90deg) translateZ(200px);
+}
+
+.p4 {
+  -webkit-transform: rotateY(135deg) translateZ(200px);
+}
+
+.p5 {
+  -webkit-transform: rotateY(180deg) translateZ(200px);
+}
+
+.p6 {
+  -webkit-transform: rotateY(225deg) translateZ(200px);
+}
+
+.p7 {
+  -webkit-transform: rotateY(270deg) translateZ(200px);
+}
+
+.p8 {
+  -webkit-transform: rotateY(315deg) translateZ(200px);
+}
+
+.p1 {
+  -moz-transform: translateZ(200px);
+}
+
+.p2 {
+  -moz-transform: rotateY(45deg) translateZ(200px);
+}
+
+.p3 {
+  -moz-transform: rotateY(90deg) translateZ(200px);
+}
+
+.p4 {
+  -moz-transform: rotateY(135deg) translateZ(200px);
+}
+
+.p5 {
+  -moz-transform: rotateY(180deg) translateZ(200px);
+}
+
+.p6 {
+  -moz-transform: rotateY(225deg) translateZ(200px);
+}
+
+.p7 {
+  -moz-transform: rotateY(270deg) translateZ(200px);
+}
+
+.p8 {
+  -moz-transform: rotateY(315deg) translateZ(200px);
 }
 
 /* Footer */
-
-.Logo{
-  
-  fill: #FAF8FF
-
+.Logo {
+  fill: #FAF8FF;
 }
