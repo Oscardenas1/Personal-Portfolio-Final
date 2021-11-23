@@ -87,18 +87,51 @@ body {
 
 /*Responsive BigLogo*/
 @media screen and (max-width: 600px) {
+  .BigLogo{
+    margin-top: -52px;
+  }
   .BigLogo1 {
     font-size: 600%;
     bottom: -100px;
-    left: 30%;
+    left: 6%;
+  }
+  @keyframes Slide-in-left {
+    from {
+      left: -20%;
+    }
+
+    to {
+      left: 6%;
+    }
   }
 
   .BigLogo2 {
-    font-size: 100px;
+    font-size: 87px;
+    bottom: -74px;
+  }
+  @keyframes Slide-in-top {
+    from {
+      bottom: 200px;
+    }
+
+    to {
+      bottom: -74px;
+    }
   }
 
   .BigLogo3 {
-    font-size: 260%;
+    font-size: 207%;
+    right: 2%;
+    bottom: 18px;
+  }
+  @keyframes Slide-in-right {
+    from {
+      right: -100px;
+    }
+
+    to {
+      right: 2%;
+    }
   }
 }
 
