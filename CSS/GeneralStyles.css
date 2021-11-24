@@ -85,93 +85,18 @@ body {
   }
 }
 
-/*Responsive BigLogo*/
-@media screen and (max-width: 600px) {
-  .BigLogo{
-    margin-top: -52px;
-  }
-  .BigLogo1 {
-    font-size: 600%;
-    bottom: -100px;
-    left: 6%;
-  }
-  @keyframes Slide-in-left {
-    from {
-      left: -20%;
-    }
-
-    to {
-      left: 6%;
-    }
-  }
-
-  .BigLogo2 {
-    font-size: 87px;
-    bottom: -74px;
-  }
-  @keyframes Slide-in-top {
-    from {
-      bottom: 200px;
-    }
-
-    to {
-      bottom: -74px;
-    }
-  }
-
-  .BigLogo3 {
-    font-size: 207%;
-    right: 2%;
-    bottom: 18px;
-  }
-  @keyframes Slide-in-right {
-    from {
-      right: -100px;
-    }
-
-    to {
-      right: 2%;
-    }
-  }
+/*My Work*/
+.txt1{
+  font-size: 80px;
+  text-align: center;
 }
-
-/*My MyWork_Home*/
-.MyWork_Home_Text p {
-  margin-block-start: 0;
-  margin-block-end: 0;
+.txt2{
+  font-size: 36px;
+  text-align: center;
 }
-
-.MyWorkLink :hover {
-  color: #1BCFE2;
-  text-decoration: underline;
-}
-
-.WhaleSharkCoffee {
-  width: 100%;
-}
-
-.Octopus_Home {
-  width: 100%;
-}
-
-@-webkit-keyframes Caroussel {
-  from {
-    -webkit-transform: rotateY(0);
-  }
-
-  to {
-    -webkit-transform: rotateY(-360deg);
-  }
-}
-
-@-moz-keyframes Caroussel {
-  from {
-    -moz-transform: rotateY(0);
-  }
-
-  to {
-    -moz-transform: rotateY(-360deg);
-  }
+.txt3{
+  font-size: 36px;
+  padding-left: 12px;
 }
 
 .p1 {
@@ -237,6 +162,198 @@ body {
 .p8 {
   -moz-transform: rotateY(315deg) translateZ(200px);
 }
+
+/*Responsive BigLogo*/
+@media screen and (max-width: 600px) {
+  .BigLogo {
+    margin-top: -52px;
+  }
+
+  .BigLogo1 {
+    font-size: 600%;
+    bottom: -100px;
+    left: 6%;
+  }
+
+  @keyframes Slide-in-left {
+    from {
+      left: -20%;
+    }
+
+    to {
+      left: 6%;
+    }
+  }
+
+  .BigLogo2 {
+    font-size: 87px;
+    bottom: -74px;
+  }
+
+  @keyframes Slide-in-top {
+    from {
+      bottom: 200px;
+    }
+
+    to {
+      bottom: -74px;
+    }
+  }
+
+  .BigLogo3 {
+    font-size: 207%;
+    right: 2%;
+    bottom: 18px;
+  }
+
+  @keyframes Slide-in-right {
+    from {
+      right: -100px;
+    }
+
+    to {
+      right: 2%;
+    }
+  }
+
+#wrapper {
+  left: 41%;
+  bottom: 70px;
+}
+
+  .carrousel {
+    width: 40px;
+    height: 200px;
+  }
+
+  .plan {
+    height: 140px;
+    width: 71px;
+  }
+
+  .MyWork_Home_Text {
+    position: absolute;
+    right: 10%;
+    top: 50px;
+  }
+
+  .txt1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .txt2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .txt3{
+    font-size: 20px;
+    padding-left: 12px;
+  }
+
+  .p1 {
+    -webkit-transform: translateZ(100px);
+  }
+
+  .p2 {
+    -webkit-transform: rotateY(45deg) translateZ(100px);
+  }
+
+  .p3 {
+    -webkit-transform: rotateY(90deg) translateZ(100px);
+  }
+
+  .p4 {
+    -webkit-transform: rotateY(135deg) translateZ(100px);
+  }
+
+  .p5 {
+    -webkit-transform: rotateY(180deg) translateZ(100px);
+  }
+
+  .p6 {
+    -webkit-transform: rotateY(225deg) translateZ(100px);
+  }
+
+  .p7 {
+    -webkit-transform: rotateY(270deg) translateZ(100px);
+  }
+
+  .p8 {
+    -webkit-transform: rotateY(315deg) translateZ(100px);
+  }
+
+  .p1 {
+    -moz-transform: translateZ(100px);
+  }
+
+  .p2 {
+    -moz-transform: rotateY(45deg) translateZ(100px);
+  }
+
+  .p3 {
+    -moz-transform: rotateY(90deg) translateZ(100px);
+  }
+
+  .p4 {
+    -moz-transform: rotateY(135deg) translateZ(100px);
+  }
+
+  .p5 {
+    -moz-transform: rotateY(180deg) translateZ(100px);
+  }
+
+  .p6 {
+    -moz-transform: rotateY(225deg) translateZ(100px);
+  }
+
+  .p7 {
+    -moz-transform: rotateY(270deg) translateZ(100px);
+  }
+
+  .p8 {
+    -moz-transform: rotateY(315deg) translateZ(100px);
+  }
+}
+
+/*My MyWork_Home*/
+.MyWork_Home_Text p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.MyWorkLink :hover {
+  color: #1BCFE2;
+  text-decoration: underline;
+}
+
+.WhaleSharkCoffee {
+  width: 100%;
+}
+
+.Octopus_Home {
+  width: 100%;
+}
+
+@-webkit-keyframes Caroussel {
+  from {
+    -webkit-transform: rotateY(0);
+  }
+
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+@-moz-keyframes Caroussel {
+  from {
+    -moz-transform: rotateY(0);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+  }
+}
+
 
 /* Footer */
 .Logo {
