@@ -18,6 +18,7 @@ body {
 @media screen and (max-width: 600px) {
   .NavBar.responsive {
     position: relative;
+    position: fixed;
   }
 
   .NavBar.responsive .MenuIcon {
@@ -195,7 +196,7 @@ body {
 
   .BigLogo1 {
     font-size: 600%;
-    bottom: -100px;
+    bottom: -29px;
     left: 6%;
   }
 
@@ -211,7 +212,7 @@ body {
 
   .BigLogo2 {
     font-size: 87px;
-    bottom: -74px;
+    bottom: -16px;
   }
 
   @keyframes Slide-in-top {
@@ -220,14 +221,14 @@ body {
     }
 
     to {
-      bottom: -74px;
+      bottom: -16px;
     }
   }
 
   .BigLogo3 {
     font-size: 207%;
     right: 2%;
-    bottom: 18px;
+    bottom: -11px;
   }
 
   @keyframes Slide-in-right {
@@ -365,7 +366,11 @@ body {
 
   .imgWindow {
     background-attachment: fixed;
-    background-position: 45% 100%;
+    background-position: 45% 32%;
+  }
+
+  .MyWork_Landing{
+    height: auto;
   }
 }
 
@@ -407,6 +412,7 @@ body {
     -moz-transform: rotateY(-360deg);
   }
 }
+
 
 /* Footer */
 .Logo {
