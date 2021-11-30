@@ -76,7 +76,7 @@
   position: absolute;
   text-align: left;
   float: left;
-  bottom: -142px;
+  bottom: 12px;
   font-size: 945%;
   left: 33.2%;
   animation-name: Slide-in-left;
@@ -87,6 +87,7 @@
   position: absolute;
   font-size: 120px;
   left: 49%;
+  bottom: 39px;
   animation-name: Slide-in-top;
   animation-duration: 2.5s;
 }
@@ -212,17 +213,7 @@
   z-index: 1;
 }
 
-.Card {
-  position: absolute;
-  width: 316px;
-  height: 400px;
-  background-color: #616161;
-  opacity: 0.3;
-  z-index: 2;
-  left: 20%;
-  top: 12%;
-}
-
+/* Patallax Flipping Cards Effect taken from: https://codepen.io/nicolaspavlotsky/pen/wqGgLO */
 * {
   margin: 0;
   padding: 0;
