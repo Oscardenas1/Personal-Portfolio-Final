@@ -76,9 +76,9 @@
   position: absolute;
   text-align: left;
   float: left;
-  bottom: 12px;
+  bottom: 4%;
   font-size: 945%;
-  left: 33.2%;
+  right: 51.2%;
   animation-name: Slide-in-left;
   animation-duration: 4s;
 }
@@ -87,7 +87,7 @@
   position: absolute;
   font-size: 120px;
   left: 49%;
-  bottom: 39px;
+  bottom: 13%;
   animation-name: Slide-in-top;
   animation-duration: 2.5s;
 }
@@ -96,8 +96,8 @@
   position: absolute;
   text-align: left;
   float: right;
-  right: 31%;
-  bottom: 32px;
+  left: 51%;
+  bottom: 11%;
   font-size: 350%;
   animation-name: Slide-in-right;
   animation-duration: 4s;
