@@ -1,0 +1,54 @@
+
+body{
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300%;
+}
+.MFrame{
+    position: relative;
+    margin: auto;
+}
+table, td{
+    /* border: solid 2px black; */
+    align-content: center;
+}
+td{
+    height: 6rem;
+    width: 11%;
+}
+.screen{
+    height: 6rem;
+    width: 38%;
+}
+#num{
+    width: 98%;
+    height: 98%;
+    background-color: white;
+    font-size: large; border-radius:15px;
+    border: solid  black;
+    box-shadow: -6px -8px 8px 0px rgb(0 0 0 / 70%), -2px 69px 67px 36px rgb(0 0 0 / 17%);
+}
+button{
+    cursor: pointer;
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(323deg, #00C9FF 0%, #92FE9D 100%);
+    border-radius: 15px;
+    border: solid  black;
+    box-shadow: -6px -8px 8px 0px rgb(0 0 0 / 70%), -2px 69px 67px 36px rgb(0 0 0 / 17%);
+}
+.math{
+    background: rgb(231,102,23);
+    background: linear-gradient(319deg, rgba(231,102,23,1) 0%, rgba(202,213,13,1) 100%);
+}
+.clear{
+    color: #d52e0d;
+    text-shadow: 2px 2px 13px #e76617;
+}
+.equal{
+    color: yellowgreen;
+    text-shadow: 0px 0px 5px #0de70d;
+    background: rgb(231,23,62);
+    background: linear-gradient(133deg, rgba(231,23,62,1) 0%, rgba(89,10,35,1) 100%);
+}
