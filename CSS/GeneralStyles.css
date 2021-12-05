@@ -87,6 +87,14 @@ body {
 }
 
 /*My Work*/
+.WorkHeader {
+  margin: 0.7em auto;
+  font-size: 4rem;
+  font-weight: normal;
+  color: #444;
+  text-align: center;
+}
+
 .txt1 {
   font-size: 80px;
   text-align: center;
@@ -186,6 +194,14 @@ body {
   font-weight: bold;
 }
 
+.KnowMeTag {
+  color: black;
+}
+
+.KnowMeTag :hover {
+  color: #1BCFE2;
+}
+
 /*Responsive*/
 @media screen and (max-width: 600px) {
 
@@ -227,17 +243,17 @@ body {
 
   .BigLogo3 {
     font-size: 207%;
-    right: 2%;
-    bottom: -11px;
+    left: 55%;
+    bottom: -3%;
   }
 
   @keyframes Slide-in-right {
     from {
-      right: -100px;
+      left: 100%;
     }
 
     to {
-      right: 2%;
+      left: 55%;
     }
   }
 

@@ -172,7 +172,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/*About Me Section*/
+/*About Me Section- Home*/
 .AboutMe_Home {
   position: relative;
   width: 100%;
@@ -208,7 +208,7 @@
 .MyWork_Landing {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: auto;
   background-color: #ddd;
   z-index: 1;
 }
@@ -239,15 +239,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-family: 'Montserrat';
-  font-weight: normal;
-  color: #444;
-  text-align: center;
-  margin: 2rem 0;
 }
 
 .wrapper2 {
@@ -426,4 +417,11 @@ h1 {
     width: 100%;
     margin: 0 0 2rem 0;
   }
+}
+
+/* About Me  */
+.AboutMeLanding {
+  width: 100%;
+  height: 1000px;
+  background-color: #ddd;
 }
