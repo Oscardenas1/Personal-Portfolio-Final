@@ -389,49 +389,59 @@ body {
     height: auto;
   }
 
-/*About Me page*/
-.picture{
-  width: 100%;
-  padding-top: 15%;
-}
-.profpic{
-  width: 100%;
-}
-.intro {
-  width: 100%;
-  left: 13%;
-  top: 15%;
-}
-.Part2{
-  width: 100%;
-  margin-left: 0;
-  padding-top: 193%;
-}
+  /*About Me page*/
+  .picture {
+    width: 100%;
+    padding-top: 15%;
+  }
 
-.swimTxt {
-  width: 100%;
-  top: 49%;
-  margin-right: 0;
-}
-.Part3 {
-  width: 100%;
-  padding-top: 86%;
-  padding-left: 0;
-}
-.school{
-  width: 100%;
-  margin-left: 0;
-}
-.schoolTxt{
-  width: 100%;
-  margin-left: 0;
-  top: 71%;
-}
+  .profpic {
+    width: 100%;
+  }
 
-.Others {
-  padding-top: 100%;
-}
+  .intro {
+    width: 100%;
+    left: 13%;
+    top: 15%;
+  }
 
+  .Part2 {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 193%;
+  }
+
+  .swimTxt {
+    width: 100%;
+    top: 49%;
+    margin-right: 0;
+  }
+
+  .Part3 {
+    width: 100%;
+    padding-top: 86%;
+    padding-left: 0;
+  }
+
+  .school {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .schoolTxt {
+    width: 100%;
+    margin-left: 0;
+    top: 71%;
+  }
+
+  .Others {
+    padding-top: 100%;
+  }
+
+  /*Contact Me Page*/
+  .ContactMe {
+    margin: 50% auto 10% 25%;
+  }
 }
 
 /*My MyWork_Home*/

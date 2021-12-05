@@ -490,7 +490,7 @@
   text-align: center;
 }
 
-.Others{
+.Others {
   text-align: center;
   font-size: 1.6rem;
 }
@@ -499,11 +499,52 @@
   margin: 5% auto;
 }
 
-.imgOthers{
+.imgOthers {
   column-count: 1;
   padding-bottom: 5%;
 }
 
-.imxp{
+.imxp {
   height: 118px;
+}
+
+/*content Page*/
+.ContanctLanding {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-color: #ddd;
+}
+
+.ContactMe {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  background-color: #616161;
+  margin: 10% auto 10% 25%;
+  border-radius: 20px;
+}
+
+.ContactInner {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding-top: 10%;
+}
+
+.ContactInner button {
+  font-style: normal;
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 4%;
+}
+
+.ContactInner a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+}
+.ContactInner h3 {
+  padding-bottom: 10%;
 }
