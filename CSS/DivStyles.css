@@ -198,12 +198,20 @@
   top: 16%;
 }
 
-.idk {
+.contactMe_Home {
   width: 100%;
   height: 500px;
   background-color: #616161;
+  text-align: center;
+}
+.contactMe_Home h1 {
+  padding-top: 14%;
 }
 
+.contactMe_Home a {
+  text-decoration: none;
+  color: white;
+}
 /*------------------------My Work Attributes------------------------------*/
 .MyWork_Landing {
   position: relative;
